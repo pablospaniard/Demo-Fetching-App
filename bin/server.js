@@ -6,3 +6,5 @@ browserSync.init({
   },
     open: false
 });
+
+http.createServer(onRequest).listen(process.env.PORT || 6000);
