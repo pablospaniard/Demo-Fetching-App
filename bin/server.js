@@ -4,4 +4,5 @@ browserSync.init({
   server: {
     "baseDir": ["./", "./app" ]
   },
+    open: false
 });
