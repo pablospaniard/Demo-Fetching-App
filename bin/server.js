@@ -4,6 +4,4 @@ browserSync.init({
   server: {
     "baseDir": ["./", "./app" ]
   },
-    browser: 'google chrome',
-    notify: false
 });
