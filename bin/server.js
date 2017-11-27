@@ -3,7 +3,8 @@ const browserSync = require('browser-sync').create();
 browserSync.init({
   server: {
       port: process.env.PORT || 5000,
-    "baseDir": ["./", "./app"]
+      host: process.env. IP || "localhost",
+      "baseDir": ["./", "./app"]
   },
     open: false
 });
