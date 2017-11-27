@@ -1,0 +1,74 @@
+@import "bootstrap";
+
+$left-bgcolor: #303234;
+
+html {
+  height: 100%;
+  font-size: 16px;
+  body {
+    height: 100%;
+    .container-fluid {
+      height: 100%;
+      .main-row {
+        display: flex;
+        flex-flow: row wrap;
+        height: 100%;
+        #left {
+          height: 100%;
+          background-color: $left-bgcolor;
+          color: white;
+          line-height: 50px;
+          ul {
+            padding-left: 0;
+            li {
+              list-style: none;
+              font-size: 1rem;
+              padding: 0 10px;
+              .person {
+                color: #54e95a;
+              }
+              .group {
+                color: #eff245;
+              }
+            }
+            li:hover {
+              cursor: pointer;
+              background-color:  rgba(163, 163, 163, 0.5);
+            }
+          }
+        }
+        #right {
+          display: none;
+          flex-flow: column wrap;
+          align-items: center;
+          width: 66%;
+          #buttons {
+            margin: 20px 0;
+            button {
+              margin: 0 10px;
+            }
+          }
+          #team {
+            width:50%;
+            #member-email {
+              h3, p {
+                float: right;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//.row{
+//  display: flex;
+//  flex-flow: row wrap;
+//  #left {
+//    background-color: $left-bgcolor;
+//  }
+//}
+
+
+

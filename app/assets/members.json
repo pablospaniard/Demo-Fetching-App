@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Luis Pérez",
+    "email": "luis.perez@example.com"
+  },
+  {
+    "id": "2",
+    "name": "Pedro Martínez",
+    "email": "pedro.martinez@example.com"
+  },
+  {
+    "id": "3",
+    "name": "Alicia González",
+    "email": "alicia.gonzalez@example.com"
+  },
+  {
+    "id": "4",
+    "name": "Paula Gutiérrez",
+    "email": "paula.gutierrez@example.com"
+  },
+  {
+    "id": "5",
+    "name": "Analysts",
+    "email": "analysts@example.com",
+    "users": [
+      {
+        "id": "9",
+        "name": "Diego Martínez",
+        "email": "diego.martinez@example.com"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Jaime Pombal",
+    "email": "jaime.pombal@example.com"
+  },
+  {
+    "id": "7",
+    "name": "Marketing",
+    "email": "marketing@example.com",
+    "users": [
+      {
+        "id": "8",
+        "name": "Jerónimo Suárez",
+        "email": "jeronimo.suarez@example.com"
+      },
+      {
+        "id": "9",
+        "name": "Diego Martínez",
+        "email": "diego.martinez@example.com"
+      }
+    ]
+  }
+]
